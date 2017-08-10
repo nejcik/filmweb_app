@@ -10,5 +10,18 @@
   <%= @user.email %>
 </p>
 
+<% if @review_post %>
+  <p>
+    <strong>Title:</strong>
+    <%= @review_post.title %>
+  </p>
+  <p>
+    <strong>Content:</strong>
+    <%= @review_post.content %>
+  </p>
+<% end %>
+
+
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
