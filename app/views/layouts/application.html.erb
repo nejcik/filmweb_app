@@ -7,26 +7,15 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-
   </head>
 
   <body>
+    <%= render 'layouts/header' %>
 
-    <header class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container">
-      <%= link_to "Yay", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
 
-        <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Help", static_pages_help_path %></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div clas="container">
-    <%= yield %>
-  </div>
+    <div clas="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>
