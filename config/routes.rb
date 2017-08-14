@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'review_posts/show'
   get 'static_pages/about'
   get 'static_pages/home'
-  get 'static_pages/help'get
+  get 'static_pages/help'
 
   #should look like this:
   # get  '/help',    to: 'static_pages#help'
