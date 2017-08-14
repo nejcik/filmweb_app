@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
-  get 'static_pages/help'
 
   resources :users
   resources :review_posts
@@ -8,4 +6,11 @@ Rails.application.routes.draw do
   root 'static_pages#home'
   get 'review_posts/show'
   get 'static_pages/about'
+  get 'static_pages/home'
+  get 'static_pages/help'get
+
+  #should look like this:
+  # get  '/help',    to: 'static_pages#help'
+  # get  '/about',   to: 'static_pages#about'
+
 end
