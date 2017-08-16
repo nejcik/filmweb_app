@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  # before_save: { email.downcase!} #this does not work!
+  before_save { email.downcase!} #this does not work! bcause of :!!!!
   has_many :review_posts
   validates :name, presence: true, length: {maximum: 50}
   VALID_EMAIL_REGEX = /\A[\w+\-._]+@[a-z\d\-.]+\.[a-z]+\z/i
