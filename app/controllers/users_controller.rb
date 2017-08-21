@@ -12,6 +12,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @review_post = @user.review_posts.first
+    #debugger
   end
 
   # GET /users/new
