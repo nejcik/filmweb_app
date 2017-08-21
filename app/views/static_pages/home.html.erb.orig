@@ -1,0 +1,20 @@
+<% provide(:title, "Home") %>
+
+<div class= "center jumbotron">
+	<h1>MovieMinute Comunity</h1>
+
+	<h3>And now  we can say, that is a sweet homepage, DUDE! </h3>
+
+	<h3>Welcome to our MovieMinute Community! Place, where ou can keep your thoughts about every moments from movies which moved your soul :D </h3>
+
+
+<<<<<<< HEAD
+  <%= link_to "SIGN UP",   new_user_path , class: " btn btn-lg btn-default"%>
+=======
+  <%= link_to "SIGN UP",   users_path , class: " btn btn-lg btn-default"%>
+>>>>>>> begin
+
+
+<!--<%= link_to "User",   users_path , class: " btn btn-lg  "%>
+<%= link_to "Reviews", review_posts_path, class: "btn btn-lg "%>-->
+</div>
