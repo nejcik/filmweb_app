@@ -35,6 +35,8 @@
    margin-bottom: 10px;
  }
 
+ 
+
  /* typography */
 
  h1, h2, h3, h4, h5, h6 {
@@ -92,11 +94,9 @@
 
  /* body */
 
-/*
-.jumbotron {
-  background-color: MintCream;
+.table{
+  margin-top: 20px;
 }
-*/
  /* footer */
 
  footer {
@@ -128,6 +128,6 @@
    margin-left: 15px;
  }
 
- .image-foot-link {
-   margin-bottom: 50px;
+ .img-thumbnail {
+   margin-top: 50px;
  }
