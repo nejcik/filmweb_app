@@ -2,9 +2,14 @@
 
 <p id="notice"><%= notice %></p>
 
+<div class = "jumbotron">
 <h1>Review Posts</h1>
+<br>
 
-<table>
+<%= link_to 'New Review Post', new_review_post_path %>
+
+
+<table class = "table">
   <thead>
     <tr>
       <th>Title</th>
@@ -27,7 +32,4 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New Review Post', new_review_post_path %>
+</div>
