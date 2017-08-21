@@ -12,7 +12,8 @@
  *
  *= require_tree .
  *= require_self
- /* universal */
+
+/* universal */
 
  body {
    padding-top: 60px;
@@ -63,7 +64,7 @@
  }
 
  div {
-  margin: 10px;
+  margin: 2px;
   align-content: center;
  }
 
@@ -84,18 +85,18 @@
   color: #fff;
   text-decoration: none;
  }
+
+ /*.navbar-inverse {
+  background-color: Olive-drab;
+ }*/
+
  /* body */
 
- .btn-secondary{
-  margin: 10px;
-  align-self: center;
- }
-
- .nav-home{
-   align-content: center;
- }
-
-
+/*
+.jumbotron {
+  background-color: MintCream;
+}
+*/
  /* footer */
 
  footer {
